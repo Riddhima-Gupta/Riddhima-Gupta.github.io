@@ -1,0 +1,150 @@
+/* Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1b2a36;
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.6;
+}
+
+/* Top Frame (Header) */
+.top-frame {
+  background-color: #0c131a;
+  padding: 20px;
+  text-align: center;
+}
+
+.top-frame h1 {
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+.top-frame p {
+  font-size: 1.2rem;
+  color: #cccccc;
+}
+
+/* Side Navigation */
+.side-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  background-color: #070c0f;
+  padding-top: 60px;
+}
+
+.side-nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.side-nav ul li {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.side-nav ul li a {
+  color: #f2f4f7;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.side-nav ul li a:hover {
+  color: #007acc;
+}
+
+/* Main Content */
+.main-content {
+  margin-left: 220px;
+  padding: 40px 20px;
+  padding-bottom: 220px;
+}
+
+.card {
+  background-color: #0c131a;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.card h2 {
+  color: #007acc;
+  margin-bottom: 10px;
+}
+
+.card p {
+  color: #dddddd;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #0c131a;
+  font-size: 0.9rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .side-nav {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .main-content {
+    margin-left: 0;
+  }
+}
+/* Home button styles */
+.home-btn-container {
+  text-align:center;
+  margin-left: 20px;
+}
+
+.home-btn-container button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.home-btn-container button:hover {
+  background-color: #45a049;
+}
+/* Home link above sidebar */
+.home-link {
+  display: block;
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #333;
+  border-bottom: 1px solid #ccc;
+}
+
+.home-link:hover {
+  background-color: #e0e0e0;
+  color: #000;
+}
+.side-nav ul li:first-child a {
+  font-weight: bold;
+  font-size: 18px;
+  color: #4CAF50; /* Green color for home link */
+}
