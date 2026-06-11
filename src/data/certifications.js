@@ -1,4 +1,4 @@
-export const certificationFilters = ['All', 'Cybersecurity', 'Networking', 'Programming'];
+export const certificationFilters = ['All', 'Cybersecurity', 'Networking', 'Programming', 'Cloud & DevOps'];
 
 export const certifications = [
   {
@@ -68,14 +68,14 @@ export const certifications = [
     id: 'cert-10',
     title: 'Cloud Security Fundamentals',
     issuer: 'Palo Alto Cybersecurity Academy',
-    category: 'Cybersecurity',
+    category: 'Cloud & DevOps',
     credentialUrl: 'https://drive.google.com/file/d/1hZ0FFID_FMtR62u1ld6lEAS9JI5c_gki/view?usp=sharing',
   },
   {
     id: 'cert-11',
     title: 'Cloud Security Automation',
     issuer: 'Palo Alto Cybersecurity Academy',
-    category: 'Cybersecurity',
+    category: 'Cloud & DevOps',
     credentialUrl: 'https://drive.google.com/file/d/1-W3NcH6y9TNSZABPdGkfsNRZ8Wv1kZmJ/view?usp=sharing',
   },
   {
@@ -91,5 +91,26 @@ export const certifications = [
     issuer: 'Cisco Networking Academy',
     category: 'Programming',
     credentialUrl: 'https://drive.google.com/file/d/1P0DdGTxsjRkO-0Ap4LCkmCEopc_m2QTb/view?usp=sharing',
+  },
+  {
+    id: 'cert-14',
+    title: 'CCNA: Switching, Routing, and Wireless Essentials',
+    issuer: 'Cisco Networking Academy',
+    category: 'Networking',
+    credentialUrl: 'https://drive.google.com/file/d/14NOn2hDJGsUbvCWsfSTg3iCRCg96s9BS/view?usp=sharing',
+  },
+  {
+    id: 'cert-15',
+    title: 'CCNA: Enterprise Networking, Security, and Automation',
+    issuer: 'Cisco Networking Academy',
+    category: 'Networking',
+    credentialUrl: 'https://drive.google.com/file/d/1nH3xuZ_2OxHs8Yv-cZex3qItRhWZv4iD/view?usp=sharing',
+  },
+  {
+    id: 'cert-16',
+    title: 'AWS Academy - Cloud Foundations',
+    issuer: 'AWS Academy',
+    category: 'Cloud & DevOps',
+    credentialUrl: 'https://drive.google.com/file/d/1FDGyra5f2CSlj4rieNuIdQk6XylCJJrH/view?usp=sharing',
   },
 ];

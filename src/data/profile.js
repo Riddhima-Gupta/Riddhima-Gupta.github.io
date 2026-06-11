@@ -1,7 +1,7 @@
 export const roleTitles = [
-  'Cybersecurity Analyst',
-  'AI/ML developer',
-  'Software Developer',
+  'Networking & Security',
+  'AI/ML & Backend Technologies',
+  'Software Development',
 ];
 
 export const profile = {
@@ -20,7 +20,7 @@ export const profile = {
     cgpa: '7.6',
     coursework: ['Data Structures and Algorithms', 'Object-Oriented Programming', "Database Management Systems", "Computer Networks", "Operating Systems"],
   },
-  domains: ['Cybersecurity', 'AI/ML', 'Software Development', 'Data Science'],
+  domains: ['Software Development', 'AI/ML','Cybersecurity', 'Cloud Technologies'],
   social: {
     github: 'https://github.com/Riddhima-Gupta',
     linkedin: 'https://www.linkedin.com/in/riddhima-gupta-310766320/',
