@@ -148,13 +148,9 @@ export const projects = [
     'UDP',
     'Nginx'
   ],
-
   githubUrl: 'https://github.com/[YOUR_AEGISSTREAM_REPO]',
-
-  liveUrl: 'https://aegisstream.duckdns.org',
-
+  liveUrl: 'https://aegisstream.duckdns.org/',
   docsUrl: '/projects/[PROJECT_DOC_5].pdf',
-
   image: '/projects/[PROJECT_IMAGE_5].png',
 }
 ];
