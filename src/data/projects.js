@@ -60,7 +60,6 @@ export const projects = [
     'Streamlit',
     'boto3',
     'AWS',
-    'Groq API',
     'CIS Benchmarks',
     'MITRE ATT&CK',
     'fpdf'
@@ -107,4 +106,55 @@ export const projects = [
     docsUrl: '/projects/[PROJECT_DOC_4].pdf',
     image: '/projects/[PROJECT_IMAGE_4].png',
   },
+  {
+  id: 'project-6',
+
+  title: 'AegisStream – Secure Cloud Document Security & QUIC Transfer Platform',
+
+  description:
+  'A cloud-hosted secure document platform focused on access control, security monitoring, auditability, and secure file transfer, with a QUIC-based research engine for investigating reliable and integrity-preserving document transmission.',
+
+  details:
+  'Deployed a security-focused document platform on AWS with authentication, role-based access control, protected document operations, audit logging, AWS S3 integration, security headers, and controlled API access. Integrated a standalone QUIC research engine using aioquic to investigate secure document transfer, transfer integrity, connection behavior, and adaptive scheduling under network constraints.',
+
+  category: 'Cybersecurity',
+
+  tags: [
+    'Cloud Security',
+    'AWS Security',
+    'Access Control',
+    'IAM',
+    'Audit Logging',
+    'Secure File Transfer',
+    'QUIC',
+    'Network Security',
+    'Document Security',
+    'Incident Monitoring'
+  ],
+
+  techStack: [
+    'Python',
+    'FastAPI',
+    'AWS EC2',
+    'AWS S3',
+    'AWS IAM',
+    'CloudTrail',
+    'React',
+    'TypeScript',
+    'REST API',
+    'QUIC',
+    'aioquic',
+    'TLS',
+    'UDP',
+    'Nginx'
+  ],
+
+  githubUrl: 'https://github.com/[YOUR_AEGISSTREAM_REPO]',
+
+  liveUrl: 'https://aegisstream.duckdns.org',
+
+  docsUrl: '/projects/[PROJECT_DOC_5].pdf',
+
+  image: '/projects/[PROJECT_IMAGE_5].png',
+}
 ];
